@@ -1,0 +1,23 @@
+Class Node {
+	String val;
+	Node next;
+	
+	// Overload methods
+	public static void Node(String val, Node n) {
+		value = val;
+		next = n;
+	}
+	public static void Node(String val) {
+		value = val;
+		next = Null;
+	}
+	public static void Main(String args[]) {
+		myList = new Node("Bob");
+		myList.next = new Node("Carol");
+		// myList == ["Bob", "Carol"]
+		myList.next.next = new Node("Debby");
+		// myList == ["Bob", "Carol", "Debby"]
+		Node p = new Node("Allen", myList);
+		
+	}
+}
