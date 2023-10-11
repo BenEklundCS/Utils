@@ -1,0 +1,7 @@
+/* 
+enqueue() --> Insert at back O(1)
+dequeue() -- Remove front O(1) // We always know the location of the front and rear of the queue
+enqueue(3)
+enqueue(4)
+enqueue(9)
+queue = (3,4,9)

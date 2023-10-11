@@ -1,0 +1,31 @@
+// Stack!
+
+/*
+push(5)
+push(10)
+push(15)
+Stack = (15, 10, 5)
+pop()
+Stack = (10,5)
+pop()
+Stack = (5)
+pop()
+isEmpty = true; */
+
+// Code implementation (C++ psudocode)
+
+int main() {
+	int stack stack(5);
+	int values[] = (5, 10, 15, 20, 25);
+	int value;
+	for(int k = 0; k < 5; k++) {
+		stack.push(values[k])
+	}
+	while(!stack.isEmpty) {
+		stack.pop(value)
+		cout << value;
+	}
+	return 0;
+}
+
+
