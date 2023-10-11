@@ -1,4 +1,4 @@
-#include <String>
+#include <string>
 #include <iostream>
 
 class Car {
@@ -18,6 +18,7 @@ class Car {
                       << "Brand:     " << brand << std::endl;
         }
 };
+
 int main() {
     Car two_door_mazda = Car(120, 2, "Mazda");
     Car four_door_ford = Car(105, 4, "Ford");

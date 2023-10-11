@@ -1,6 +1,5 @@
 #include <iostream>
 #include <time.h>
-using namespace std;
 
 int main()
 {
@@ -19,8 +18,8 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            cout << square[i][j] << ' ';
-            cout << endl;
+            std::cout << square[i][j] << ' ';
         }
+        std::cout << std::endl;
     }
 }
