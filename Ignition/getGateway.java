@@ -7,7 +7,7 @@ import java.util.List;
 public class getGateway {
     public static void main(String[] args) throws MalformedURLException, ProtocolException {
         List<String> versions = new ArrayList<String>();
-        String gatewayURL = "Insert url here!";
+        String gatewayURL = "http://localhost:8088/system/gwinfo";
         Gateway gateway = new Gateway();
         URL url = new URL(gatewayURL);
         System.out.println(url);

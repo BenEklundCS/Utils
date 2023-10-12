@@ -4,7 +4,7 @@
 #define HOURS_IN_DAY 24
 #define MINUTES_IN_HOUR 60
 
-int main() {
+int main(void) {
     int noon = 0;
     for(int hour = 0; hour < HOURS_IN_DAY; hour++) {
         if(hour >= 12) {
@@ -19,5 +19,5 @@ int main() {
             }
         }
     }
+    return EXIT_SUCCESS;
 }
-

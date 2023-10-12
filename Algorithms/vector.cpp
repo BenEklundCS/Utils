@@ -11,11 +11,14 @@ int main() {
 }
 
 void printv(std::vector<int> vector) {
+    // Opening formatting
     std::cout << "v = {";
-    for (std::size_t i = 0; i < vector.size(); i++) {
+    // cout all but the last element in the vector
+    for (std::size_t i = 0; i < vector.size()-1; i++) {
         std::cout << vector[i] << " ";
     }
-    std::cout << "}" << std::endl;
+    // cout the last element with additional formatting
+    std::cout << vector.back() << "}\n";
 }
 
 int linear_search(std::vector<int> vector, int num) {
@@ -24,5 +27,6 @@ int linear_search(std::vector<int> vector, int num) {
             return i;
         }
     }
+    // "-1" indicates that the term was not found
     return -1;
 }
